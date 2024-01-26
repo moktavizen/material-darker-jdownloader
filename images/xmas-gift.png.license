@@ -1,0 +1,1 @@
+Vectors and icons by <a href="https://github.com/DiemenDesign/LibreICONS?ref=svgrepo.com" target="_blank">Diemen Design</a> in MIT License via <a href="https://www.svgrepo.com/" target="_blank">SVG Repo</a>
