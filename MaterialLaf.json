@@ -20,7 +20,7 @@
   "colorfortablepackagerowforeground": "#ffeeffff",
   "colorforspeedmetercurrenttop": "#20c3e88d",
   "colorfortablemouseoverrowbackground": "#ff1a1a1a",
-  "colorfortableselectedrowsbackground": "#ff1b1b1b",
+  "colorfortableselectedrowsbackground": "#ff1a1a1a",
   "colorforscrollbarsnormalstate": "#ff3c3e3e",
   "colorforprogressbarforeground1": "#5f82aaff",
   "colorforspeedmeteraverage": "#ffc3e88d",
@@ -30,7 +30,6 @@
   "colorfortooltipforeground": "#ffeeffff",
   "colorfortableaccounterrorrowbackground": "#7ff07178",
   "colorforprogressbarforeground4": "#5f82aaff",
-  "fontscalefactor": 125,
   "colorforspeedmeteraveragetext": "#ffeeffff",
   "colorfortableaccounttemperrorrowbackground": "#7fffcb6b",
   "colorforprogressbarforeground5": "#5f82aaff",
@@ -38,7 +37,7 @@
   "colorfortableaccounttemperrorrowforeground": "#ffeeffff",
   "colorforpanelborders": "#ff383838",
   "colorforspeedmetertext": "#ffeeffff",
-  "colorfortablealternaterowbackground": "#ff212121",
+  "colorfortablealternaterowbackground": "#ff1b1b1b",
   "tablealternaterowhighlightenabled": false,
   "colorfortableaccounterrorrowforeground": "#ffeeffff"
 }
