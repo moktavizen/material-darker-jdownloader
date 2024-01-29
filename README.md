@@ -1,6 +1,6 @@
 <h1 align="center">Material Theme <br> JDownloader 2</h1> 
 
-JDownloader 2 Theme built using [Material Theme](https://github.com/material-theme/vsc-material-theme) Palette, [FlatLaf](https://github.com/JFormDesigner/FlatLaf), [Papirus Icon](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), [Font Awesome](https://fontawesome.com/) Icon, and [SVG Repo](https://www.svgrepo.com/) Icons.
+JDownloader 2 Theme built using [Material Theme](https://github.com/material-theme/vsc-material-theme) Darker Palette, [FlatLaf](https://github.com/JFormDesigner/FlatLaf), [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icon, [Font Awesome](https://fontawesome.com/) Icon, and [SVG Repo](https://www.svgrepo.com/) Icons.
 
 ## 🎨 Preview
 
