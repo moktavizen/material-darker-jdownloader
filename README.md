@@ -25,7 +25,7 @@ run `git clone https://github.com/moktavizen/material-jdownloader.git`
 > [!NOTE] 
 > Choose replace or merge if asked.
 
-See Your `<installation-directory>` in `Help > About Jdownloader > Click me / Mouse over`
+See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mouse over`
 
 ![installation directory button](/assets/install-dir.png)
 
