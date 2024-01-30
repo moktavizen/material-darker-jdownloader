@@ -27,6 +27,7 @@ See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mo
 
 ### 3. Apply the theme
 
-Open your JDownloader and Go to `Settings > Settings > Advanced Settings` and search for `look and feel theme` and change the value to `FLATLAF_MAC_DARK`
+- In your JDownloader, go to `Settings > Settings > Advanced Settings`
+- Search for `look and feel theme` and change the value to `FLATLAF_MAC_DARK`
 
 ### 4. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
