@@ -5,21 +5,19 @@ JDownloader 2 Theme built using [Material Theme](https://github.com/material-the
 ## 🎨 Preview
 
 ![settings tab preview](assets/downloads-tab.png)
-
 ![settings tab preview](assets/settings-tab.png)
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### 1. Get the theme files
 
-run `git clone https://github.com/moktavizen/material-jdownloader.git` 
+- Run `git clone https://github.com/moktavizen/material-jdownloader.git` 
+- Or [download the zip](https://github.com/moktavizen/material-darker-jdownloader/archive/master.zip) file of this repository and then extract it.
 
 ### 2. Copy the theme files into these directory
 
 - `images` folder to `<installation-directory>/themes/standard/org/jdownloader`
-
 - `laf` folder to `<installation-directory>/cfg`
-
 - `flatlaf.jar` to `<installation-directory>/libs/laf`
 
 > [!NOTE] 
