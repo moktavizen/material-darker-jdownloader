@@ -16,7 +16,7 @@ JDownloader 2 Theme built using [Material Theme](https://github.com/material-the
 
 ### 2. Copy the theme files into these directory
 
-See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mouse over`
+See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mouse over`, then copy
 
 - `images` folder to `<installation-directory>/themes/standard/org/jdownloader`
 - `laf` folder to `<installation-directory>/cfg`
