@@ -21,14 +21,8 @@ install_theme() {
 
 # Install theme
 echo "Installing theme..."
-if [ -d "$INSTALL_DIR" ]; then
-	install_theme "$INSTALL_DIR" &
-fi
-if [ -d "$FPAK_INSTALL_DIR" ]; then
-	install_theme "$FPAK_INSTALL_DIR" &
-fi
-
-wait
+[ -d "$INSTALL_DIR" ] && install_theme "$INSTALL_DIR"
+[ -d "$FPAK_INSTALL_DIR" ] && install_theme "$FPAK_INSTALL_DIR"
 
 # Clean up
 rm -rf "$EXTRACT_DIR"
