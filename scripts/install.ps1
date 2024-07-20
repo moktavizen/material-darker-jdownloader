@@ -1,43 +1,35 @@
+
+
 # Define variables
-$REPO_URL = "https://github.com/moktavizen/material-darker-jdownloader/archive/refs/heads/main.zip"
-$INSTALL_DIR = "$HOME\.jd"
-$THEME_DIR = "material-darker-jdownloader-main"
-$ZIP_FILE = "material-darker-jdownloader.zip"
+$THEME_URL = "https://github.com/moktavizen/material-darker-jdownloader/archive/refs/heads/main.zip"
+$EXTRACT_DIR = "material-darker-jdownloader-main"
+$INSTALL_DIR = "$env:USERPROFILE\.jd"
 
-# Download the zip file
-Write-Host "Downloading theme..."
-Invoke-WebRequest -Uri $REPO_URL -OutFile $ZIP_FILE
+# Download and extract the zip file
+Write-Host "Downloading and extracting theme..."
+(Invoke-WebRequest -Uri $THEME_URL).Content | Expand-Archive -DestinationPath . -Force
+# Invoke-WebRequest -Uri $THEME_URL -OutFile "theme.zip"
+# Expand-Archive -Path "theme.zip" -DestinationPath . -Force
+# Remove-Item -Path "theme.zip" -Force
 
-# Check if the download was successful
-if (-Not (Test-Path -Path $ZIP_FILE)) {
-    Write-Host "Failed to download the repository."
-    exit 1
+# Function to create directories and copy files
+function Install-Theme {
+    param (
+        [string]$InstallDir
+    )
+    New-Item -Path "$InstallDir\themes\standard\org\jdownloader", "$InstallDir\cfg", "$InstallDir\libs\laf" -ItemType Directory -Force | Out-Null
+    Copy-Item -Path "$EXTRACT_DIR\images" -Destination "$InstallDir\themes\standard\org\jdownloader\" -Recurse -Force
+    Copy-Item -Path "$EXTRACT_DIR\laf" -Destination "$InstallDir\cfg\" -Recurse -Force
+    Copy-Item -Path "$EXTRACT_DIR\flatlaf.jar" -Destination "$InstallDir\libs\laf\" -Force
 }
 
-# Extract the zip file
-Write-Host "Extracting theme..."
-Expand-Archive -Path $ZIP_FILE -DestinationPath .
-
-# Copy the theme files
+# Install theme
 Write-Host "Installing theme..."
-if (Test-Path -Path $INSTALL_DIR) {
-    if (-Not (Test-Path -Path "$INSTALL_DIR\themes\standard\org\jdownloader")) {
-        New-Item -ItemType Directory -Path "$INSTALL_DIR\themes\standard\org\jdownloader" -Force
-    }
-    if (-Not (Test-Path -Path "$INSTALL_DIR\cfg")) {
-        New-Item -ItemType Directory -Path "$INSTALL_DIR\cfg" -Force
-    }
-    if (-Not (Test-Path -Path "$INSTALL_DIR\libs\laf")) {
-        New-Item -ItemType Directory -Path "$INSTALL_DIR\libs\laf" -Force
-    }
-
-    Copy-Item -Path "$THEME_DIR\images" -Destination "$INSTALL_DIR\themes\standard\org\jdownloader" -Recurse -Force
-    Copy-Item -Path "$THEME_DIR\laf" -Destination "$INSTALL_DIR\cfg" -Recurse -Force
-    Copy-Item -Path "$THEME_DIR\flatlaf.jar" -Destination "$INSTALL_DIR\libs\laf" -Force
+if (Test-Path $INSTALL_DIR) {
+    Install-Theme -InstallDir $INSTALL_DIR
 }
 
 # Clean up
-Remove-Item -Path $THEME_DIR -Recurse -Force
-Remove-Item -Path $ZIP_FILE -Force
+Remove-Item -Path $EXTRACT_DIR -Recurse -Force
 
-Write-Host "Theme files installed successfully."
+Write-Host "Theme files installed successfully"
