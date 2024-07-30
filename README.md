@@ -1,6 +1,6 @@
 <h1 align="center">Material Darker Theme <br> JDownloader 2</h1> 
 
-JDownloader 2 Theme built using [Material Theme](https://github.com/material-theme/vsc-material-theme) Darker Palette, [FlatLaf](https://github.com/JFormDesigner/FlatLaf) macOS Dark Look and Feel, [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icon, [Font Awesome](https://fontawesome.com/) Icon, and [SVG Repo](https://www.svgrepo.com/) Icons.
+JDownloader 2 Theme built using [Material Theme](https://github.com/material-theme/vsc-material-theme) Darker Palette, [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Dark Look and Feel, [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icon, [Font Awesome](https://fontawesome.com/) Icon, and [SVG Repo](https://www.svgrepo.com/) Icons.
 
 ## 🎨 Preview
 
@@ -28,6 +28,6 @@ See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mo
 ### 3. Apply the theme
 
 - In your JDownloader, go to `Settings > Settings > Advanced Settings`
-- Search for `look and feel theme` and change the value to `FLATLAF_MAC_DARK`
+- Search for `look and feel theme` and change the value to `FLATLAF_DARK`
 
 ### 4. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
