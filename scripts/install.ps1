@@ -1,16 +1,15 @@
 
 
 # Define variables
-$THEME_URL = "https://github.com/moktavizen/material-darker-jdownloader/archive/refs/heads/main.zip"
+$THEME_URL = "https://github.com/moktavizen/material-darker-jdownloader/archive/refs/heads/main.tar.gz"
 $EXTRACT_DIR = "material-darker-jdownloader-main"
 $INSTALL_DIR = "$env:USERPROFILE\.jd"
 
 # Download and extract the zip file
 Write-Host "Downloading and extracting theme..."
-(Invoke-WebRequest -Uri $THEME_URL).Content | Expand-Archive -DestinationPath . -Force
-# Invoke-WebRequest -Uri $THEME_URL -OutFile "theme.zip"
-# Expand-Archive -Path "theme.zip" -DestinationPath . -Force
-# Remove-Item -Path "theme.zip" -Force
+Invoke-WebRequest -Uri $THEME_URL -OutFile "temp.tar.gz"
+tar -xzf temp.tar.gz
+Remove-Item temp.tar.gz
 
 # Function to create directories and copy files
 function Install-Theme
@@ -19,7 +18,7 @@ function Install-Theme
         [string]$InstallDir
     )
     # New-Item -Path "$InstallDir\themes\standard\org\jdownloader", "$InstallDir\cfg", "$InstallDir\libs\laf" -ItemType Directory -Force | Out-Null
-    mkdir "$InstallDir\themes\standard\org\jdownloader", "$InstallDir\cfg", "$InstallDir\libs\laf"
+    md "$InstallDir\themes\standard\org\jdownloader", "$InstallDir\cfg", "$InstallDir\libs\laf"
     Copy-Item -Path "$EXTRACT_DIR\images" -Destination "$InstallDir\themes\standard\org\jdownloader\" -Recurse -Force
     Copy-Item -Path "$EXTRACT_DIR\laf" -Destination "$InstallDir\cfg\" -Recurse -Force
     Copy-Item -Path "$EXTRACT_DIR\flatlaf.jar" -Destination "$InstallDir\libs\laf\" -Force
