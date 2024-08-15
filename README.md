@@ -7,7 +7,8 @@ JDownloader 2 dark theme built with [Material Theme](https://github.com/material
 ## Installation 🛠️
 
 > [!WARNING]
-> Installing this theme will reset your JDownloader settings!
+> Installing this theme will change your settings!
+> Do a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration) if you want to restore later
 
 ### 1. Get the theme files
 
