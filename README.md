@@ -7,20 +7,16 @@ JDownloader 2 dark theme built with [Material Theme](https://github.com/material
 ## Installation 🛠️
 
 > [!WARNING]
-> Installing this theme will change your settings!
-> Do a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration) if you want to restore later
+> Installing this theme will change your settings!, do a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration) if you want to restore later.
 
 ### 1. Get the theme files
 
 - Run `git clone https://github.com/moktavizen/material-jdownloader.git`
 - Or [download the zip](https://github.com/moktavizen/material-darker-jdownloader/archive/master.zip) file of this repository and then extract it.
-
-### 2. Apply the theme
-
 - In your JDownloader, go to `Settings > Settings > Advanced Settings`
 - Search for `look and feel theme` and change the value to `FLATLAF_DARK`
 
-### 3. Copy the theme files into these directory
+### 2. Copy the theme files into these directory
 
 See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mouse over`, then copy
 
@@ -31,4 +27,4 @@ See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mo
 > [!NOTE]
 > Choose replace or merge if asked.
 
-### 4. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
