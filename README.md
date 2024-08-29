@@ -25,7 +25,6 @@ See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mo
 - `laf` folder to `<installation-directory>/cfg`
 - `flatlaf.jar` to `<installation-directory>/libs/laf`
 
-> [!NOTE]
-> Choose replace or merge if asked.
+Choose replace or merge if there are any conflicts.
 
 ### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
