@@ -28,3 +28,22 @@ See Your `<installation-directory>` in `Help > About JDownloader > Click me / Mo
 Choose replace or merge if there are any conflicts.
 
 ### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+
+## FAQ 📑
+
+### Why my font and UI is small? Why the font scale setting doesn't work?
+
+Check this [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
+and [thread](https://board.jdownloader.orgq/showthread.php?p=532602#post532602)
+for detailed instruction. If you want to scale only your JDownloader, Create or
+edit `JDownloader2.vmoptions` on your `<installation-directory>`, then add
+`-Dsun.java2d.uiScale=200%` inside of it. For Linux, make sure you install
+JDownloader using the scipt from [JDownloader Website](https://jdownloader.org/download/index),
+`vmoptions` sometimes is not recognized if you install JDownloader from Flatpak,
+AUR, etc.
+
+### Why my title bar is white?
+
+Usually, title bar and window decoration follow your system theme. Search for
+`LAFSettings Window Decoration` in Advanced Settings and enable it to override
+the system theme.
