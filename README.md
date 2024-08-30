@@ -12,16 +12,17 @@ neutral dark appearance.
 
 ## Installation 🛠️
 
-> [!WARNING] Installing this theme will change your settings!, do a
+> [!WARNING]
+> Installing this theme will change your settings!, do a
 > [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
-> if you want to restore later.
+> if you want to restore later
 
 ### 1. Get the theme files
 
 - Run `git clone https://github.com/moktavizen/material-jdownloader.git`
 - Or [download the
   zip](https://github.com/moktavizen/material-darker-jdownloader/archive/master.zip)
-  file of this repository and then extract it.
+  file of this repository and then extract it
 - In your JDownloader, go to `Settings > Settings > Advanced Settings`
 - Search for `look and feel theme` and change the value to `FLATLAF_DARK`
 - Follow the pop-up instruction to download the theme
@@ -35,7 +36,7 @@ Mouse over`, then copy
 - `laf` folder to `<installation-directory>/cfg`
 - `flatlaf.jar` to `<installation-directory>/libs/laf`
 
-Choose replace or merge if there are any conflicts.
+Choose replace or merge if there are any conflicts
 
 ### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 
@@ -45,7 +46,7 @@ Choose replace or merge if there are any conflicts.
 
 Check this
 [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
-and [thread](https://board.jdownloader.orgq/showthread.php?p=532602#post532602)
+and [thread](https://board.jdownloader.org/showthread.php?p=532602#post532602)
 for detailed instruction. If you want to scale only your JDownloader, Create or
 edit `JDownloader2.vmoptions` on your `<installation-directory>`, then add
 `-Dsun.java2d.uiScale=200%` inside of it. For Linux, make sure you install
