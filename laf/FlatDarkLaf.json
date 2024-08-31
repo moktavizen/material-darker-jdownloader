@@ -1,7 +1,9 @@
 {
   "customtablerowheight": 32,
-  "configlabelenabledtextcolor": "#ffffffff",
   "textantialiasenabled": true,
+  "speedmeterantialiasingenabled": true,
+  "tablealternaterowhighlightenabled": false,
+  "configlabelenabledtextcolor": "#ffffffff",
   "colorfortableselectedrowsforeground": "#ffffffff",
   "colorforconfigheadertextcolor": "#ffffffff",
   "colorfortablepackagerowbackground": "#ff212121",
@@ -9,7 +11,6 @@
   "colorforlinkgrabberdupehighlighter": "#33f07178",
   "colorforspeedmetercurrentbottom": "#ccc3e88d",
   "colorfortablemouseoverrowforeground": "#ffffffff",
-  "speedmeterantialiasingenabled": true,
   "configlabeldisabledtextcolor": "#ff545454",
   "colorforscrollbarsmouseoverstate": "#ff2d2e2e",
   "colorforpanelbackground": "#ff212121",
@@ -41,6 +42,5 @@
   "colorforpanelborders": "#ff353535",
   "colorforspeedmetertext": "#ffffffff",
   "colorfortablealternaterowbackground": "#ff1b1b1b",
-  "tablealternaterowhighlightenabled": false,
   "colorfortableaccounterrorrowforeground": "#ffffffff"
 }
