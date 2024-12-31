@@ -1,7 +1,7 @@
 # Material Darker JDownloader
 
 JDownloader 2 dark theme built with [Material
-Theme](https://github.com/material-theme/vsc-material-theme) Darker Palette,
+Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
 [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Dark Look and Feel,
 [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icons,
 [Font Awesome](https://fontawesome.com/) Icons, and [SVG
