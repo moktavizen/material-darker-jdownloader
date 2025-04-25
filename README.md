@@ -35,7 +35,7 @@ Mouse over`, then copy
 - `laf` folder to `<installation-directory>/cfg`
 - `flatlaf.jar` to `<installation-directory>/libs/laf`
 
-Choose replace or merge for any conflicts
+Choose replace for any conflicts.
 
 ### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 
@@ -43,15 +43,20 @@ Choose replace or merge for any conflicts
 
 ### Why my font and UI is small? Why the font scale setting doesn't work?
 
-Check this
+Create or edit `JDownloader2.vmoptions` in your `<installation-directory>`,
+then add
+
+```
+-Dsun.java2d.uiScale=200%
+```
+
+For Linux, make sure you install JDownloader using the script from
+[JDownloader Website](https://jdownloader.org/download/index), `vmoptions`
+sometimes is not recognized if you install it using Flatpak, AUR, etc. Proper
+HighDPI support is in the works. Check this
+[thread](https://board.jdownloader.org/showthread.php?p=532602#post532602) and
 [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
-and [thread](https://board.jdownloader.org/showthread.php?p=532602#post532602)
-for detailed instruction. If you want to scale only your JDownloader, Create or
-edit `JDownloader2.vmoptions` in your `<installation-directory>`, then add
-`-Dsun.java2d.uiScale=200%` inside of it. For Linux, make sure you install
-JDownloader using the script from [JDownloader
-Website](https://jdownloader.org/download/index), `vmoptions` sometimes is not
-recognized if you install it using Flatpak, AUR, etc.
+for more details.
 
 ### Why my title bar is white?
 
