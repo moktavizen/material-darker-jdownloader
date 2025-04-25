@@ -1,5 +1,7 @@
 # Material Darker JDownloader
 
+![theme preview](./preview.png)
+
 JDownloader 2 dark theme built with [Material
 Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
 [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Dark Look and Feel,
@@ -7,8 +9,6 @@ Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palett
 [Font Awesome](https://fontawesome.com/) Icons, and [SVG
 Repo](https://www.svgrepo.com/) Icons. This theme uses 250+ new icons and has a
 neutral dark appearance.
-
-![theme preview](assets/theme-preview.png)
 
 ## Installation 🛠️
 
