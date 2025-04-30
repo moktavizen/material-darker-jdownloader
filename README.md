@@ -2,14 +2,14 @@
 
 ![theme preview](./preview.png)
 
-JDownloader 2 dark theme built with [Material
-Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
+JDownloader 2 dark theme built with
+[Material Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
 [FlatLaf](https://github.com/JFormDesigner/FlatLaf) Dark Look and Feel,
 [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icons,
 [Material Design](https://fonts.google.com/icons) Icons,
-[Font Awesome](https://fontawesome.com/) Icons, and [SVG
-Repo](https://www.svgrepo.com/) Icons. This theme uses 250+ new icons and has a
-neutral dark appearance.
+[Font Awesome](https://fontawesome.com/) Icons, and
+[SVG Repo](https://www.svgrepo.com/) Icons.
+This theme uses 250+ new icons and has a neutral dark appearance.
 
 ## Installation 🛠️
 
@@ -29,12 +29,12 @@ neutral dark appearance.
 
 ### 2. Apply the theme
 
-See Your `<installation-directory>` in `Help > About JDownloader > Click me /
+See Your `<install-dir>` in `Help > About JDownloader > Click me /
 Mouse over`, then copy
 
-- `images` folder to `<installation-directory>/themes/standard/org/jdownloader`
-- `laf` folder to `<installation-directory>/cfg`
-- `flatlaf.jar` to `<installation-directory>/libs/laf`
+- `images` folder to `<install-dir>/themes/standard/org/jdownloader`
+- `laf` folder to `<install-dir>/cfg`
+- `flatlaf.jar` to `<install-dir>/libs/laf`
 
 Choose replace for any conflicts.
 
@@ -44,7 +44,7 @@ Choose replace for any conflicts.
 
 ### Why my font and UI is small? Why the font scale setting doesn't work?
 
-Create or edit `JDownloader2.vmoptions` in your `<installation-directory>`,
+In your `<install-dir>`, create or edit `JDownloader2.vmoptions`
 then add
 
 ```
