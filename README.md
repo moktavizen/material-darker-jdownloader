@@ -1,6 +1,6 @@
 # Material Darker JDownloader
 
-![theme preview](./preview.png)
+![theme preview](./preview.avif)
 
 JDownloader 2 dark theme built with
 [Material Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
