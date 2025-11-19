@@ -42,6 +42,10 @@ Choose replace for any conflicts.
 
 ## FAQ 📑
 
+### How to change the progress bar color?
+
+See https://github.com/moktavizen/material-darker-jdownloader/issues/14#issuecomment-3551113789
+
 ### Why my font and UI is small? Why the font scale setting doesn't work?
 
 In your `<install-dir>`, create or edit `JDownloader2.vmoptions`
