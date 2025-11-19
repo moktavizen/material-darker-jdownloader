@@ -54,7 +54,7 @@ then add
 For Linux, make sure you install JDownloader using the script from
 [JDownloader Website](https://jdownloader.org/download/index), `vmoptions`
 sometimes is not recognized if you install it using Flatpak, AUR, etc. Proper
-HighDPI support is in the works. Check this
+HighDPI support is in the works. See this
 [thread](https://board.jdownloader.org/showthread.php?p=532602#post532602) and
 [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
 for more details.
