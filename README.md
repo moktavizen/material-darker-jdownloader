@@ -2,15 +2,6 @@
 
 ![theme preview](./preview.webp)
 
-JDownloader 2 dark theme built with
-[Material Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) Darker Palette,
-[FlatLaf](https://github.com/JFormDesigner/FlatLaf) Dark Look and Feel,
-[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) Icons,
-[Material Design](https://fonts.google.com/icons) Icons,
-[Font Awesome](https://fontawesome.com/) Icons, and
-[SVG Repo](https://www.svgrepo.com/) Icons.
-This theme uses 250+ new icons and has a neutral dark appearance.
-
 ## Installation 🛠️
 
 > [!WARNING]
@@ -58,3 +49,9 @@ HighDPI support is in the works. See this
 [thread](https://board.jdownloader.org/showthread.php?p=532602#post532602) and
 [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
 for more details.
+
+## Acknowledgments 👍
+
+- [Material Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you) for color inspiration.
+- [FlatLaf](https://github.com/JFormDesigner/FlatLaf) for base theme.
+- [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), [Material Design](https://fonts.google.com/icons), [Font Awesome](https://fontawesome.com/), [SVG Repo](https://www.svgrepo.com/) for icons.
