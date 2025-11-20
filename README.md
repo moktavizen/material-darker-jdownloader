@@ -62,9 +62,3 @@ HighDPI support is in the works. See this
 [thread](https://board.jdownloader.org/showthread.php?p=532602#post532602) and
 [article](https://support.jdownloader.org/en/knowledgebase/article/high-dpi-support)
 for more details.
-
-### Why my title bar is white?
-
-Usually, title bar and window decoration style follows your system theme. Enable
-`LAFSettings Window Decoration` in Advanced Settings to override the system
-theme.

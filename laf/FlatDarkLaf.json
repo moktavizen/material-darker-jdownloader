@@ -42,5 +42,6 @@
   "colorforpanelborders": "#ff353535",
   "colorforspeedmetertext": "#ffffffff",
   "colorfortablealternaterowbackground": "#ff1b1b1b",
-  "colorfortableaccounterrorrowforeground": "#ffffffff"
+  "colorfortableaccounterrorrowforeground": "#ffffffff",
+  "windowdecorationenabled": true
 }
