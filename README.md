@@ -27,7 +27,7 @@
 
 5. Restart JDownloader.
 
-## FAQ 📑
+## FAQ 💬
 
 ### How to change the progress bar color?
 
