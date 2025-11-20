@@ -26,11 +26,11 @@ This theme uses 250+ new icons and has a neutral dark appearance.
 
 3. Follow the pop-up instruction.
 
-4. See Your `<install-dir>` in `Help > About JDownloader > Click me /
+4. See Your `JD_DIR` in `Help > About JDownloader > Click me /
    Mouse over`, then copy:
 
-   - `flatlaf.jar` to `<install-dir>/libs/laf`
-   - `images` folder to `<install-dir>/themes/standard/org/jdownloader`
+   - `flatlaf.jar` to `JD_DIR/libs/laf`
+   - `images` to `JD_DIR/themes/standard/org/jdownloader`
 
    Choose replace for any conflicts.
 
