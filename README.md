@@ -14,9 +14,9 @@ This theme uses 250+ new icons and has a neutral dark appearance.
 ## Installation 🛠️
 
 > [!WARNING]
-> Installing this theme will change your settings!, do a
+> Installing this theme will change your settings! Create a
 > [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
-> if you want to restore later
+> if you want to restore later.
 
 ### 1. Get the theme files
 
