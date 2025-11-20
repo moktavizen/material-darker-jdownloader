@@ -18,33 +18,29 @@ This theme uses 250+ new icons and has a neutral dark appearance.
 > [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
 > if you want to restore later.
 
-### 1. Get the theme files
+1. [Download the zip](https://github.com/moktavizen/material-darker-jdownloader/releases/download/v25.11/material-darker-jdownloader-2511.zip)
+   from the release page and extract it.
 
-- Clone this repo or [download the
-  zip](https://github.com/moktavizen/material-darker-jdownloader/archive/master.zip)
-  file and then extract it
-- In your JDownloader, go to `Settings > Settings > Advanced Settings`, search
-  for `look and feel theme` and change the value to `FLATLAF_DARK`
-- Follow the pop-up instruction to download the theme
+2. In your JDownloader, Click on `File > Backup > Restore settings`, and select
+   `cfg.jd2backup`
 
-### 2. Apply the theme
+3. Follow the pop-up instruction.
 
-See Your `<install-dir>` in `Help > About JDownloader > Click me /
-Mouse over`, then copy
+4. See Your `<install-dir>` in `Help > About JDownloader > Click me /
+   Mouse over`, then copy:
 
-- `laf` folder to `<install-dir>/cfg`
-- `flatlaf.jar` to `<install-dir>/libs/laf`
-- `images` folder to `<install-dir>/themes/standard/org/jdownloader`
+   - `flatlaf.jar` to `<install-dir>/libs/laf`
+   - `images` folder to `<install-dir>/themes/standard/org/jdownloader`
 
-Choose replace for any conflicts.
+   Choose replace for any conflicts.
 
-### 3. Restart JDownloader or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+5. Restart JDownloader.
 
 ## FAQ 📑
 
 ### How to change the progress bar color?
 
-See https://github.com/moktavizen/material-darker-jdownloader/issues/14#issuecomment-3551113789
+See https://github.com/moktavizen/material-darker-jdownloader/issues/14#issuecomment-3551113789.
 
 ### Why my font and UI is small? Why the font scale setting doesn't work?
 
