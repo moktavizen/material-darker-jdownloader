@@ -5,7 +5,7 @@
 ## Installation 🛠️
 
 > [!WARNING]
-> This theme changes the current settings! Create a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
+> This changes your settings! Create a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
 > if you plan to restore.
 
 1. [Download the zip](https://github.com/moktavizen/material-darker-jdownloader/releases/download/v25.11/material-darker-jdownloader-2511.zip)
