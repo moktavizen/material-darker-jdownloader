@@ -26,6 +26,10 @@
 
 5. Restart JDownloader.
 
+> [!NOTE]
+> Sometimes JDownloader overwrites `flatlaf.jar` after an update, just copy
+> `flatlaf.jar` to `JD_DIR/libs/laf` again.
+
 ## FAQ
 
 ### How to change the progress bar color?
