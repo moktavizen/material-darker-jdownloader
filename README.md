@@ -2,7 +2,7 @@
 
 ![theme preview](./preview.webp)
 
-## Installation 🛠️
+## Installation
 
 > [!WARNING]
 > This changes your settings! Create a [backup](https://support.jdownloader.org/en/knowledgebase/article/backup-restore-configuration)
@@ -26,7 +26,7 @@
 
 5. Restart JDownloader.
 
-## FAQ 💬
+## FAQ
 
 ### How to change the progress bar color?
 
@@ -55,7 +55,7 @@ Currently, you can try either:
    `vmoptions` sometimes is not recognized if you install it using Flatpak, AUR,
    etc.
 
-## Acknowledgments 👍
+## Attribution
 
 - [Material Theme](https://github.com/t3dotgg/vsc-material-but-i-wont-sue-you)
   for color inspiration.
